@@ -1,0 +1,157 @@
+*{    
+    margin: 0;
+    padding: 0;   
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.highlight {
+    background-image: url('https://static.wixstatic.com/media/aec8a1_6539d496e26346989428341cbe168f78~mv2.jpg/v1/fill/w_1854,h_1920,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/aec8a1_6539d496e26346989428341cbe168f78~mv2.jpg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* color: #ff0000; */
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    padding: 100px 0;
+    filter: blur(0.5px)
+
+}
+
+nav {
+    background-color: #333;
+    color: #ff6600;
+    padding: 10px 0;
+    margin-bottom: 0px;
+}
+
+nav h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cta-button, button {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.features{
+    text-align: center;
+}
+
+.feature{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.price-flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.price-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 20px;
+    /* display: inline-block; */
+}
+
+.price {
+    font-size: 24px;
+    color: #ff6600;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+form{
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 50%;
+    margin-bottom: 0px;
+}
+
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: block;
+
+}
+
+.testimonials {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.testimonial-slider {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.testimonial {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.testimonial p {
+    font-style: italic;
+    color: #444;
+}
+
+footer {
+    background-color: #333;
+    color: #ff6600;
+    text-align: center;
+    padding: 10px 0;
+}
